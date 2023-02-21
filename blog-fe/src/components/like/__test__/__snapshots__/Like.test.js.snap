@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Like should render 1`] = `
+<DocumentFragment>
+  <div
+    class="like"
+  >
+    <img
+      class="icons"
+      data-testid="like-btn"
+      src="heart-black.svg"
+    />
+  </div>
+</DocumentFragment>
+`;

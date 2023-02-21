@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-left {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+  padding-left: 135px;
+}
+
+.header-left>a {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.header-right {
+  display: flex;
+  padding: 10px;
+  padding-right: 135px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-end;
+  column-gap: 100px;
+  row-gap: 10px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: white;
+  text-decoration: none;
+}

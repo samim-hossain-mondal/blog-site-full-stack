@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <div
+      class="card-blog"
+    >
+      <img
+        src="abstract.png"
+      />
+      <div
+        class="container"
+      >
+        <div
+          class="date-time"
+        >
+          <h>
+             2nd Januray, 2018 
+          </h>
+          <h>
+             2 mins 
+          </h>
+        </div>
+        <div
+          class="content-head"
+        >
+          <h>
+             The future of abstract art and the culture ... 
+          </h>
+        </div>
+        <div
+          class="content-body"
+        >
+          <h>
+             Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your... 
+          </h>
+        </div>
+        <div>
+          <hr />
+          <div
+            class="card-foot"
+          >
+            <div
+              class="clap"
+            >
+              <img
+                class="icons"
+                data-testid="clap-btn"
+                src="clapping.svg"
+                style="opacity: 0.35;"
+              />
+              <h>
+                 10 
+              </h>
+            </div>
+            <div
+              class="like"
+            >
+              <img
+                class="icons"
+                data-testid="like-btn"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card-blog"
+    >
+      <img
+        src="outdoor.png"
+      />
+      <div
+        class="container"
+      >
+        <div
+          class="date-time"
+        >
+          <h>
+             31st Januray, 2018 
+          </h>
+          <h>
+             1 min 
+          </h>
+        </div>
+        <div
+          class="content-head"
+        >
+          <h>
+             How painting outdoors can transform your  
+          </h>
+        </div>
+        <div
+          class="content-body"
+        >
+          <h>
+             Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your... 
+          </h>
+        </div>
+        <div>
+          <hr />
+          <div
+            class="card-foot"
+          >
+            <div
+              class="clap"
+            >
+              <img
+                class="icons"
+                data-testid="clap-btn"
+                src="clapping.svg"
+                style="opacity: 0.35;"
+              />
+              <h>
+                 1 
+              </h>
+            </div>
+            <div
+              class="like"
+            >
+              <img
+                class="icons"
+                data-testid="like-btn"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card-blog"
+    >
+      <img
+        src="young-painters.png"
+      />
+      <div
+        class="container"
+      >
+        <div
+          class="date-time"
+        >
+          <h>
+             20th March, 2018 
+          </h>
+          <h>
+             2 mins 
+          </h>
+        </div>
+        <div
+          class="content-head"
+        >
+          <h>
+             10 young painters you need to know 
+          </h>
+        </div>
+        <div
+          class="content-body"
+        >
+          <h>
+             Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your... 
+          </h>
+        </div>
+        <div>
+          <hr />
+          <div
+            class="card-foot"
+          >
+            <div
+              class="clap"
+            >
+              <img
+                class="icons"
+                data-testid="clap-btn"
+                src="clapping.svg"
+                style="opacity: 0.35;"
+              />
+              <h>
+                 15 
+              </h>
+            </div>
+            <div
+              class="like"
+            >
+              <img
+                class="icons"
+                data-testid="like-btn"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card-blog"
+    >
+      <img
+        src="perfect-art.png"
+      />
+      <div
+        class="container"
+      >
+        <div
+          class="date-time"
+        >
+          <h>
+             22nd June, 2018 
+          </h>
+          <h>
+             5 mins 
+          </h>
+        </div>
+        <div
+          class="content-head"
+        >
+          <h>
+             Tips for creating the perfect art 
+          </h>
+        </div>
+        <div
+          class="content-body"
+        >
+          <h>
+             Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your... 
+          </h>
+        </div>
+        <div>
+          <hr />
+          <div
+            class="card-foot"
+          >
+            <div
+              class="clap"
+            >
+              <img
+                class="icons"
+                data-testid="clap-btn"
+                src="clapping.svg"
+                style="opacity: 0.35;"
+              />
+              <h>
+                 11 
+              </h>
+            </div>
+            <div
+              class="like"
+            >
+              <img
+                class="icons"
+                data-testid="like-btn"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card-blog"
+    >
+      <img
+        src="inspired.png"
+      />
+      <div
+        class="container"
+      >
+        <div
+          class="date-time"
+        >
+          <h>
+             4th Feburary, 2019 
+          </h>
+          <h>
+             9 mins 
+          </h>
+        </div>
+        <div
+          class="content-head"
+        >
+          <h>
+             Stay inspired: top artists blog ... 
+          </h>
+        </div>
+        <div
+          class="content-body"
+        >
+          <h>
+             Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your... 
+          </h>
+        </div>
+        <div>
+          <hr />
+          <div
+            class="card-foot"
+          >
+            <div
+              class="clap"
+            >
+              <img
+                class="icons"
+                data-testid="clap-btn"
+                src="clapping.svg"
+                style="opacity: 0.35;"
+              />
+              <h>
+                 45 
+              </h>
+            </div>
+            <div
+              class="like"
+            >
+              <img
+                class="icons"
+                data-testid="like-btn"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card-blog"
+    >
+      <img
+        src="reason.png"
+      />
+      <div
+        class="container"
+      >
+        <div
+          class="date-time"
+        >
+          <h>
+             10th Januray, 2019 
+          </h>
+          <h>
+             2 mins 
+          </h>
+        </div>
+        <div
+          class="content-head"
+        >
+          <h>
+             5 reasons why everyone should try an... 
+          </h>
+        </div>
+        <div
+          class="content-body"
+        >
+          <h>
+             Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your... 
+          </h>
+        </div>
+        <div>
+          <hr />
+          <div
+            class="card-foot"
+          >
+            <div
+              class="clap"
+            >
+              <img
+                class="icons"
+                data-testid="clap-btn"
+                src="clapping.svg"
+                style="opacity: 0.35;"
+              />
+              <h>
+                 11 
+              </h>
+            </div>
+            <div
+              class="like"
+            >
+              <img
+                class="icons"
+                data-testid="like-btn"
+                src="heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
