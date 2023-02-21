@@ -19,6 +19,11 @@ const init = async () => {
   const server = Hapi.server({
     port: 8080,
     host: '0.0.0.0',
+    routes: {
+      cors: {
+        origin: ['*'],
+      },
+    }
   });
   await server.initialize();
   await attachPlugins(server);

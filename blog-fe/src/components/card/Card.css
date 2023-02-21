@@ -40,8 +40,6 @@ img {
     font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    inline-size: inherit;
-    overflow-wrap: break-word;
 }
 
 .content-body {
