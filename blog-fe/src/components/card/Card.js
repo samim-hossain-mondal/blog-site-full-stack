@@ -19,20 +19,27 @@ export default function Card() {
       });
   }, []);
 
+  function truncate(str) {
+    return str.split(" ").splice(0, 16).join(" ");
+  }
+
   const card = cardData.map((card, index) => {
-    return (<div key={index} className='card-blog'>
-      <img src={card.image} alt="img" />
-      <div className='container'>
-        <div className='date-time'>
-          <h> {card.date} </h>
-          <h> {card.readingTime} </h>
+    return (
+      <div key={index} className='card-blog'>
+        <img src={card.image} alt="img" />
+        <div className='container'>
+          <div className='date-time'>
+            <h> {card.date} </h>
+            <h> {card.readingTime} </h>
+          </div>
+          <div className='content-head'>
+            <h> {card.title} </h>
+          </div>
+          <div className='content-body'>
+            <h> {truncate(card.description)} ... </h>
+          </div>
         </div>
-        <div className='content-head'>
-          <h> {card.title} </h>
-        </div>
-        <div className='content-body'>
-          <h> {card.description} </h>
-        </div>
+
         <div>
           <hr />
           <div className='card-foot'>
@@ -40,8 +47,7 @@ export default function Card() {
             <Like id={card.id} liked={card.liked} />
           </div>
         </div>
-      </div>
-    </div>);
+      </div>);
   });
   return (
     <div className='card'>

@@ -24,6 +24,7 @@ img {
 .card-blog {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 320px;
     border: solid rgb(200, 200, 200) 1px;
 }
