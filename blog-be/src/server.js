@@ -23,7 +23,7 @@ const init = async () => {
       cors: {
         origin: ['*'],
       },
-    }
+    },
   });
   await server.initialize();
   await attachPlugins(server);
