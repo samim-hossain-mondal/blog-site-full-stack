@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="16" lines-covered="13" line-rate="0.8125" branches-valid="8" branches-covered="6" branch-rate="0.75" timestamp="1676890656288" complexity="0" version="0.1">
+<coverage lines-valid="33" lines-covered="23" line-rate="0.6969" branches-valid="8" branches-covered="6" branch-rate="0.75" timestamp="1677096084466" complexity="0" version="0.1">
   <sources>
-    <source>/Users/samim_hossain_mondal/Documents/my-blog-site</source>
+    <source>/Users/samim_hossain_mondal/Documents/BE-inegration-with-FE/blog-fe</source>
   </sources>
   <packages>
     <package name="src" line-rate="0" branch-rate="1">
@@ -11,87 +11,198 @@
           <methods>
             <method name="App" hits="0" signature="()V">
               <lines>
-                <line number="7" hits="0"/>
+                <line number="11" hits="0"/>
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="8" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="false"/>
           </lines>
         </class>
       </classes>
     </package>
-    <package name="src.components.card" line-rate="1" branch-rate="1">
+    <package name="src.components.card" line-rate="0.5832999999999999" branch-rate="0.5">
       <classes>
-        <class name="Card.js" filename="src/components/card/Card.js" line-rate="1" branch-rate="1">
+        <class name="Card.js" filename="src/components/card/Card.js" line-rate="0.5832999999999999" branch-rate="0.5">
           <methods>
-            <method name="Card" hits="2" signature="()V">
+            <method name="Card" hits="1" signature="()V">
               <lines>
-                <line number="8" hits="2"/>
-              </lines>
-            </method>
-            <method name="(anonymous_1)" hits="12" signature="()V">
-              <lines>
-                <line number="9" hits="12"/>
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="9" hits="2" branch="false"/>
-            <line number="10" hits="12" branch="false"/>
-            <line number="33" hits="2" branch="false"/>
-          </lines>
-        </class>
-      </classes>
-    </package>
-    <package name="src.components.clap" line-rate="0.8332999999999999" branch-rate="0.75">
-      <classes>
-        <class name="Clap.js" filename="src/components/clap/Clap.js" line-rate="0.8332999999999999" branch-rate="0.75">
-          <methods>
-            <method name="Clap" hits="12" signature="()V">
-              <lines>
-                <line number="5" hits="12"/>
-              </lines>
-            </method>
-            <method name="(anonymous_1)" hits="2" signature="()V">
-              <lines>
-                <line number="7" hits="2"/>
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="6" hits="12" branch="false"/>
-            <line number="7" hits="11" branch="false"/>
-            <line number="8" hits="2" branch="true" condition-coverage="50% (1/2)"/>
-            <line number="9" hits="2" branch="false"/>
-            <line number="11" hits="0" branch="false"/>
-            <line number="14" hits="11" branch="false"/>
-          </lines>
-        </class>
-      </classes>
-    </package>
-    <package name="src.components.like" line-rate="0.8332999999999999" branch-rate="0.75">
-      <classes>
-        <class name="Like.js" filename="src/components/like/Like.js" line-rate="0.8332999999999999" branch-rate="0.75">
-          <methods>
-            <method name="Like" hits="9" signature="()V">
-              <lines>
-                <line number="5" hits="9"/>
+                <line number="9" hits="1"/>
               </lines>
             </method>
             <method name="(anonymous_1)" hits="1" signature="()V">
               <lines>
-                <line number="7" hits="1"/>
+                <line number="14" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="0" signature="()V">
+              <lines>
+                <line number="16" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="0" signature="()V">
+              <lines>
+                <line number="19" hits="0"/>
+              </lines>
+            </method>
+            <method name="truncate" hits="0" signature="()V">
+              <lines>
+                <line number="32" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="36" hits="0"/>
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="6" hits="9" branch="false"/>
-            <line number="7" hits="9" branch="false"/>
-            <line number="8" hits="1" branch="true" condition-coverage="50% (1/2)"/>
-            <line number="9" hits="1" branch="false"/>
-            <line number="11" hits="0" branch="false"/>
-            <line number="14" hits="9" branch="false"/>
+            <line number="11" hits="1" branch="false"/>
+            <line number="12" hits="1" branch="false"/>
+            <line number="14" hits="1" branch="false"/>
+            <line number="15" hits="1" branch="false"/>
+            <line number="17" hits="0" branch="false"/>
+            <line number="20" hits="0" branch="false"/>
+            <line number="24" hits="1" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="25" hits="0" branch="false"/>
+            <line number="33" hits="0" branch="false"/>
+            <line number="36" hits="1" branch="false"/>
+            <line number="37" hits="0" branch="false"/>
+            <line number="62" hits="1" branch="true" condition-coverage="50% (1/2)"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.components.clap" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="Clap.js" filename="src/components/clap/Clap.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="Clap" hits="7" signature="()V">
+              <lines>
+                <line number="7" hits="7"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="3" signature="()V">
+              <lines>
+                <line number="9" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="7" branch="false"/>
+            <line number="9" hits="6" branch="false"/>
+            <line number="10" hits="3" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="11" hits="2" branch="false"/>
+            <line number="14" hits="2" branch="false"/>
+            <line number="16" hits="1" branch="false"/>
+            <line number="19" hits="1" branch="false"/>
+            <line number="22" hits="6" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.components.elements" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="Footer.js" filename="src/components/elements/Footer.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="Footer" hits="1" signature="()V">
+              <lines>
+                <line number="4" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="Navbar.js" filename="src/components/elements/Navbar.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="Navbar" hits="3" signature="()V">
+              <lines>
+                <line number="8" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="1" branch="false"/>
+            <line number="9" hits="3" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.components.like" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="Like.js" filename="src/components/like/Like.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="Like" hits="6" signature="()V">
+              <lines>
+                <line number="7" hits="6"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="3" signature="()V">
+              <lines>
+                <line number="9" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="6" branch="false"/>
+            <line number="9" hits="6" branch="false"/>
+            <line number="10" hits="3" branch="false"/>
+            <line number="13" hits="3" branch="false"/>
+            <line number="16" hits="6" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.routes" line-rate="0" branch-rate="1">
+      <classes>
+        <class name="About.js" filename="src/routes/About.js" line-rate="0" branch-rate="1">
+          <methods>
+            <method name="About" hits="0" signature="()V">
+              <lines>
+                <line number="3" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Blog.js" filename="src/routes/Blog.js" line-rate="0" branch-rate="1">
+          <methods>
+            <method name="Blog" hits="0" signature="()V">
+              <lines>
+                <line number="4" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Contact.js" filename="src/routes/Contact.js" line-rate="0" branch-rate="1">
+          <methods>
+            <method name="Contact" hits="0" signature="()V">
+              <lines>
+                <line number="3" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="PageNotFoundError.js" filename="src/routes/PageNotFoundError.js" line-rate="0" branch-rate="1">
+          <methods>
+            <method name="Error" hits="0" signature="()V">
+              <lines>
+                <line number="3" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false"/>
           </lines>
         </class>
       </classes>

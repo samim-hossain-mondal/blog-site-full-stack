@@ -6,6 +6,7 @@ exports[`Like should render 1`] = `
     class="like"
   >
     <img
+      alt="img"
       class="icons"
       data-testid="like-btn"
       src="heart-black.svg"

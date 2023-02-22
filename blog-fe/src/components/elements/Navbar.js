@@ -1,6 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
+
+const pages = ['/', '/about', '/contact'];
 
 export default function Navbar() {
   return (
@@ -11,9 +14,21 @@ export default function Navbar() {
       </div>
       <div className="header-right">
         <ul>
-          <li><a href="index.html">Blog</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <Link style={{ textDecoration: 'none' }} to={pages[0]}>
+              <a>Blog</a>
+            </Link>
+          </li>
+          <li>
+            <Link style={{ textDecoration: 'none' }} to={pages[1]}>
+              <a>About</a>
+            </Link>
+          </li>
+          <li>
+            <Link style={{ textDecoration: 'none' }} to={pages[2]}>
+              <a>Contact</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

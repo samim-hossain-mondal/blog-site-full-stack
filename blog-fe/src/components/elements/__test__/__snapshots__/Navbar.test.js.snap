@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should render 1`] = `
+<DocumentFragment>
+  <div
+    class="nav"
+  >
+    <div
+      class="header-left"
+    >
+      <a>
+         The Artifact 
+      </a>
+      <em>
+         Culture & Art Blog 
+      </em>
+    </div>
+    <div
+      class="header-right"
+    >
+      <ul>
+        <li>
+          <a
+            href="index.html"
+          >
+            Blog
+          </a>
+        </li>
+        <li>
+          <a
+            href="about.html"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            href="contact.html"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

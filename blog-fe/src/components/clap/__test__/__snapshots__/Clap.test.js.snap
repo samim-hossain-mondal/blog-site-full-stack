@@ -6,13 +6,13 @@ exports[`Clap should render 1`] = `
     class="clap"
   >
     <img
+      alt="img"
       class="icons"
       data-testid="clap-btn"
       src="clapping.svg"
-      style="opacity: 0.35;"
     />
     <h>
-       NaN 
+       0 
     </h>
   </div>
 </DocumentFragment>

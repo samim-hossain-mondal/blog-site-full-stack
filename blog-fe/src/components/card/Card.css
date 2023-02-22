@@ -63,3 +63,9 @@ img {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.error {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
